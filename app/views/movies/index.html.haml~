@@ -7,7 +7,6 @@
     = rating
     = check_box_tag "ratings[#{rating}]", @ratings_hash[rating], @ratings.include?(rating), :id => "ratings_#{rating}"
   = submit_tag 'Refresh', :id => 'form_refresh'
-  = redirect_to movies_path(:hilite => session[:hilite], :ratings => @ratings), :id => 'form_refresh'
 
 
 
