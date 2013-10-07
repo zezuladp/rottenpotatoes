@@ -7,17 +7,13 @@ class MoviesController < ApplicationController
   end
 
   def index
-    if params[:session].nil?
-      @session = Hash.new
-    else
-      @session = params[:session]
-    end
+ 
     @all_ratings = Movie.ratings
     @hilite = params[:hilite]
     @ratings_hash = params[:ratings]
+
     if @ratings_hash.nil?
-      raise @session.inspect
-      @ratings_hash = @session[:ratings]
+      @ratings_hash = session[:ratings]
       if @ratings_hash.nil?
         @ratings_hash = Hash.new
         @ratings = @all_ratings
@@ -28,7 +24,7 @@ class MoviesController < ApplicationController
       @ratings = @ratings_hash.keys
     end
     if @hilite.nil?
-      @hilite = @session[:hilite]
+      @hilite = session[:hilite]
     end
 
     if (@hilite == 'release_date')
@@ -39,8 +35,11 @@ class MoviesController < ApplicationController
     else
       @movies = Movie.find(:all, :conditions =>{:rating => @ratings})
     end
-    @session[:hilite => @hilite]
-    @session[:ratings => @ratings_hash] 
+    session[:hilite] = @hilite
+    session[:ratings] = @ratings_hash
+   if params[:ratings].nil? or params[:hilite].nil?
+    redirect_to movies_path(:hilite => @hilite, :ratings => @ratings_hash)
+   end
   end
 
   def new
