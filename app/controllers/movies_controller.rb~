@@ -15,7 +15,6 @@ class MoviesController < ApplicationController
     @all_ratings = Movie.ratings
     @hilite = params[:hilite]
     @ratings_hash = params[:ratings]
-    raise params.inspect
     if @ratings_hash.nil?
       raise @session.inspect
       @ratings_hash = @session[:ratings]
