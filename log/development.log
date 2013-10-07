@@ -11571,3 +11571,1052 @@ Served asset /application.js - 304 Not Modified (12ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 12:16:56 -0700
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 12:51:14 -0700
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title[0m
+Redirected to http://localhost:3000/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on" for 127.0.0.1 at 2013-10-07 12:51:15 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"title", "ratings"=>{"G"=>"on", "PG"=>"on", "R"=>"on"}}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (40.8ms)
+Completed 200 OK in 213ms (Views: 212.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-07 12:51:15 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:15 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:15 -0700
+Served asset /jquery.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:15 -0700
+Served asset /application.js - 304 Not Modified (56ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 12:51:21 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title[0m
+Redirected to http://localhost:3000/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on" for 127.0.0.1 at 2013-10-07 12:51:21 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"title", "ratings"=>{"G"=>"on", "PG"=>"on", "R"=>"on"}}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (15.2ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-07 12:51:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:22 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:22 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 12:51:47 -0700
+Connecting to database specified by database.yml
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title[0m
+Redirected to http://localhost:3000/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/movies?hilite=title&ratings%5BG%5D=on&ratings%5BPG%5D=on&ratings%5BR%5D=on" for 127.0.0.1 at 2013-10-07 12:51:47 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"title", "ratings"=>{"G"=>"on", "PG"=>"on", "R"=>"on"}}
+  [1m[35mMovie Load (5.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (21.2ms)
+Completed 200 OK in 116ms (Views: 109.9ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-07 12:51:47 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:47 -0700
+Served asset /jquery.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-07 12:51:48 -0700
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 12:58:22 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (18ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (8.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 64ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (3.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 6ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (3.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 5ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (5.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 6ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (4.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 5ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (4.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 6ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (10.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 12ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (3.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 4ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (4.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 6ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?&hilite=none" for 127.0.0.1 at 2013-10-07 12:58:26 -0700
+Processing by MoviesController#index as HTML
+  Parameters: {"hilite"=>"none"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?&hilite=none
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:01:23 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 31ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (12.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 14ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (8.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 9ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:26 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:27 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:27 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:27 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:27 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:01:27 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:04:34 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 35ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (9.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 10ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 9ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 6ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (5.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:38 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 8ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:04:39 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:10:06 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 28ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 9ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:09 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 10ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 11ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:10:10 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:11:07 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 29ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (4.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (6.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (4.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 14ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 3ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 10ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (3.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (3.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 4ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:11:11 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:13:03 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 28ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 14ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 7ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (4.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 6ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (7.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 8ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)[0m
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:13:06 -0700
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN (NULL)
+Redirected to http://localhost:3000/movies?
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-07 13:14:26 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-07 13:14:30 -0700
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (10.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (29.8ms)
+Completed 200 OK in 180ms (Views: 147.7ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-07 13:14:30 -0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 13:14:30 -0700
+Served asset /jquery_ujs.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-07 13:14:30 -0700
+Served asset /jquery.js - 200 OK (25ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-07 13:14:30 -0700
+Served asset /application.js - 200 OK (22ms)

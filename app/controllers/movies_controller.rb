@@ -35,12 +35,12 @@ class MoviesController < ApplicationController
     else
       @movies = Movie.find(:all, :conditions =>{:rating => @ratings})
     end
-    session[:hilite] = @hilite
-    session[:ratings] = @ratings_hash
-   if params[:ratings].nil? or params[:hilite].nil?
+   if ((params[:ratings].nil? and (session[:ratings] != nil)) or (params[:hilite].nil? and (session[:hilite] != nil)))
     flash.keep
     redirect_to movies_path(:hilite => @hilite, :ratings => @ratings_hash)
    end
+    session[:hilite] = @hilite
+    session[:ratings] = @ratings_hash
   end
 
   def new
