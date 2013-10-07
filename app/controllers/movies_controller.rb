@@ -17,6 +17,9 @@ class MoviesController < ApplicationController
       if @ratings_hash.nil?
         @ratings_hash = Hash.new
         @ratings = @all_ratings
+        @ratings.each do |rating|
+          @ratings_hash[rating] = 1
+        end
       else
         @ratings = @ratings_hash.keys
       end
@@ -37,6 +40,9 @@ class MoviesController < ApplicationController
     end
    if ((params[:ratings].nil? and (session[:ratings] != nil)) or (params[:hilite].nil? and (session[:hilite] != nil)))
     flash.keep
+    raise params.inspect
+    session[:hilite] = @hilite
+    session[:ratings] = @ratings_hash
     redirect_to movies_path(:hilite => @hilite, :ratings => @ratings_hash)
    end
     session[:hilite] = @hilite
